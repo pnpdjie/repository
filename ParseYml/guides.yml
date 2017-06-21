@@ -1,0 +1,66 @@
+bigheader: "Guides"
+abstract: "User Guides"
+toc: 
+- docs/guides/index.md
+
+- title: Markdown语法解读
+  path: https://github.com/guodongxiaren/README
+
+- title: Markdown
+  section: 
+  - docs/guides/markdown/add-links-into-picture.md
+  - docs/guides/markdown/show-tables.md
+  - docs/guides/markdown/show-pictures.md
+  - docs/guides/markdown/hyperlink.md
+  - docs/guides/markdown/show-media.md
+  - docs/guides/markdown/show-pages.md
+  - docs/guides/markdown/choose.md
+  - docs/guides/markdown/icons.md
+  - docs/guides/markdown/tooltips.md
+  - docs/guides/markdown/workflow.md
+  
+- title: Simple Workflow
+  workflow: true
+  section: 
+  - flow_title: Step 1
+    path: docs/guides/workflow/simple/sample1.md
+  - flow_title: Step 2
+    path: docs/guides/workflow/simple/sample2.md
+  - flow_title: Step 3
+    path: docs/guides/workflow/simple/sample3.md
+  - flow_title: Step 4
+    path: docs/guides/workflow/simple/sample4.md
+  - flow_title: Step 5
+    path: docs/guides/workflow/simple/sample5.md
+
+- title: Complex Workflow
+  workflow: true
+  section: 
+  - title: Step 1
+    section:
+    - docs/guides/workflow/complex/sample6.md
+    - docs/guides/workflow/complex/sample7.md
+    - docs/guides/workflow/complex/sample8.md
+  - title: Step 2
+    section:
+    - docs/guides/workflow/complex/sample9.md
+    - docs/guides/workflow/complex/sample10.md
+    - docs/guides/workflow/complex/sample11.md
+  - title: Step 3
+    section:
+    - docs/guides/workflow/complex/sample12.md
+    - docs/guides/workflow/complex/sample13.md
+    - docs/guides/workflow/complex/sample14.md
+    
+- title: Jekyll
+  section: 
+  - docs/guides/jekyll/windows_setup.md
+  - docs/guides/jekyll/install-jekyll-in-linux.md
+  - docs/guides/jekyll/page-layout-configuration.md
+  - docs/guides/jekyll/create-new-page.md
+    
+- title: 模板生成工具
+  section: 
+  - docs/guides/generator/template-generator-install.md
+  - docs/guides/generator/template-generator-guides.md
+
